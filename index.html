@@ -24,8 +24,8 @@
       </a>
     </header>
     <main class="main">
-      <section class="task-section">
-        <label class="task-section__item" for="new-task">Add Item</label>
+      <section class="task-section task-section_add">
+        <label class="task-section__title" for="new-task">Add Item</label>
         <div class="task-section__row">
           <input
             id="new-task"
@@ -47,7 +47,7 @@
             >
             <button class="btn btn_edit">Edit</button>
             <button class="btn btn_delete">
-              <img alt="remove task" src="./remove.svg">
+              <img class="btn__img" alt="remove task" src="./remove.svg">
             </button>
           </li>
           <li class="task-section__item task-section__item_editmode">
@@ -60,14 +60,14 @@
             >
             <button class="btn btn_edit">Save</button>
             <button class="btn btn_delete">
-              <img alt="remove task" src="./remove.svg">
+              <img class="btn__img" alt="remove task" src="./remove.svg">
             </button>
           </li>
         </ul>
       </section>
       <section class="task-section">
         <h2 class="task-section__title">Completed</h2>
-        <ul class="task-section__list" id="completed">
+        <ul class="task-section__list task-section__list_completed" id="completed">
           <li class="task-section__item">
             <input
               class="task-section__checkbox"
