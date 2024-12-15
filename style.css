@@ -88,6 +88,7 @@
   margin: 0 0 20px;
 }
 .task-section_add .task-section__input {
+  display: flex;
   width: 318px;
 }
 
